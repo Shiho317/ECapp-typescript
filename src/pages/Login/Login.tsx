@@ -64,7 +64,7 @@ const Login = () => {
   return(
     <Wrapper>
       <div className='login'>
-      <h3>Log In</h3>
+      <h3>LOG IN</h3>
       <div className='contents-wrap'>
         <div className='email-input'>
           <TextField fullWidth id="outlined-basic" label="email" variant="outlined" value={isUser.email} onChange={onChangeUser} />
