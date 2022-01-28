@@ -15,7 +15,6 @@ export interface CartItemType{
   title: string;
   image: string;
   price: number;
-  description: string;
   amount: number;
 }
 
@@ -87,7 +86,7 @@ const Shop = () => {
         </div>
       </div>
       <div className="main">
-        <h3 className="title">BEST SELLING BEAUTY</h3>
+        <h3 className="title">We think you’ll love these.</h3>
         <Grid container spacing={3}>
           {products?.map(item => (
             <Grid item key={item.id} xs={12} sm={4}>

@@ -1,56 +1,90 @@
 [
   {
     "id": 1,
-    "category": "skincare",
-    "title": "fresh",
-    "image": "https://www.sephora.com/productimages/sku/s2535417-main-zoom.jpg?imwidth=1224",
-    "price": 89.00,
-    "description": "Floral Recovery Redness Reducing Overnight Mask",
+    "category": "sofas",
+    "title": "Sven Charme Tan Sofa",
+    "image": "https://cdn-images.article.com/products/SKU312A/2890x1500/image57310.jpg?fit=max&w=850&q=40&fm=webp",
+    "price": 3099,
     "amount": 0
   },
   {
     "id": 2,
-    "category": "makeup",
-    "title": "HUDA BEAUTY",
-    "image": "https://www.sephora.com/productimages/sku/s2548840-main-zoom.jpg?imwidth=1224",
-    "price": 26.50,
-    "description": "Liquid Matte Ultra-Comfort Transfer-proof Lipstick",
+    "category": "tables",
+    "title": "Mara Walnut Coffee Table",
+    "image": "https://cdn-images.article.com/products/SKU418/2890x1500/image73478.jpg?fit=max&w=850&q=40&fm=webp",
+    "price": 399,
     "amount": 0
   },
   {
     "id": 3,
-    "category": "skincare",
-    "title": "Peace Out",
-    "image": "https://www.sephora.com/productimages/sku/s1962141-main-zoom.jpg?imwidth=1224",
-    "price": 25.00,
-    "description": "Salicylic Acid Acne Healing Dots",
+    "category": "chairs",
+    "title": "Ceni Fresh White Armchair",
+    "image": "https://cdn-images.article.com/products/SKU2605/2890x1500/image60844.jpg?fit=max&w=850&q=40&fm=webp",
+    "price": 929,
     "amount": 0
   },
   {
     "id": 4,
-    "category": "bath&body",
-    "title": "Supergoop!",
-    "image": "https://www.sephora.com/productimages/sku/s2354207-main-zoom.jpg?imwidth=1224",
-    "price": 45.00,
-    "description": "Unseen Sunscreen SPF 40 PA+++",
+    "category": "sofas",
+    "title": "Sven Neptune Blue 72' Sofa",
+    "image": "https://cdn-images.article.com/products/SKU15210/2890x1500/image69509.jpg?fit=max&w=850&q=40&fm=webp",
+    "price": 1519,
     "amount": 0
   },
   {
     "id": 5,
-    "category": "fragrance",
-    "title": "Valentino",
-    "image": "https://www.sephora.com/productimages/sku/s2249688-main-zoom.jpg?imwidth=1224",
-    "price": 123.00,
-    "description": "Donna Born In Roma Eau de Parfum",
+    "category": "tables",
+    "title": "Amoeba Wild Walnut 42.5' Wide Coffee Table",
+    "image": "https://cdn-images.article.com/products/SKU390/2890x1500/image56097.jpg?fit=max&w=850&q=40&fm=webp",
+    "price": 439,
     "amount": 0
   },
   {
     "id": 6,
-    "category": "hair",
-    "title": "Olaplex",
-    "image": "https://www.sephora.com/productimages/sku/s2121549-main-zoom.jpg?imwidth=1224",
-    "price": 38.00,
-    "description": "No. 4 Bond Maintenance™ Shampoo",
+    "category": "chairs",
+    "title": "Mod Blue Berry Armchair",
+    "image": "https://cdn-images.article.com/products/SKU2581/2890x1500/image60444.jpg?fit=max&w=850&q=40&fm=webp",
+    "price": 529,
+    "amount": 0
+  },
+  {
+    "id": 7,
+    "category": "sofas",
+    "title": "Abisko Quartz White Sofa",
+    "image": "https://cdn-images.article.com/products/SKU11884/2890x1500/image46333.jpg?fit=max&w=850&q=40&fm=webp",
+    "price": 1719,
+    "amount": 0
+  },
+  {
+    "id": 8,
+    "category": "beds",
+    "title": "Tessu Clay Taupe Queen Bed",
+    "image": "https://cdn-images.article.com/products/SKU11576/2890x1500/image58856.jpg?fit=max&w=850&q=40&fm=webp",
+    "price": 1059,
+    "amount": 0
+  },
+  {
+    "id": 9,
+    "category": "chairs",
+    "title": "Onya Lily White Lounge Chair",
+    "image": "https://cdn-images.article.com/products/SKU16262/2890x1500/image63868.jpg?fit=max&w=850&q=40&fm=webp",
+    "price": 529,
+    "amount": 0
+  },
+  {
+    "id": 10,
+    "category": "pillows",
+    "title": "Lucca Pacific Blue Pillow Set",
+    "image": "https://cdn-images.article.com/products/SKU3037/2890x1500/image72743.jpg?fit=max&w=850&q=40&fm=webp",
+    "price": 159,
+    "amount": 0
+  },
+  {
+    "id": 11,
+    "category": "beds",
+    "title": "Lenia White Oak Queen Bed",
+    "image": "https://cdn-images.article.com/products/SKU14681/2890x1500/image64787.jpg?fit=max&w=850&q=40&fm=webp",
+    "price": 1459,
     "amount": 0
   }
 ]

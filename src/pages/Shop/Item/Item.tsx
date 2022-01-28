@@ -15,8 +15,7 @@ const Item: React.FC<Props> = ({item, handleAddToCart}) => {
       </div>
       <div className="details">
         <h3>{item.title}</h3>
-        <p>{item.description}</p>
-        <h4>${(item.price).toFixed(2)}</h4>
+        <h4>C${item.price}</h4>
       </div>
         <button className="add-button" onClick={() => handleAddToCart(item)}>
           Add To Cart

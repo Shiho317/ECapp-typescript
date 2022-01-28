@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200;300&display=swap');
   width: 30rem;
   display: grid;
   grid-template-columns: 1fr 1fr 0.2fr;
   align-items: center;
-  margin: 2rem 0;
+  margin: 2rem auto;
   font-family: 'Abril Fatface', cursive;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Poppins', sans-serif;
   .contents-wrap h3{
     text-align: center;
   }
@@ -31,13 +31,13 @@ export const Wrapper = styled.div`
     justify-content: space-evenly;
   }
   .img-wrap{
-    width: 130px;
+    width: 150px;
     height: 130px;
     margin: 0 auto;
     background-color: blue;
   }
   img{
-    width: 130px;
+    width: 150px;
     height: 130px;
     border: 3px solid #dcdcdc;
   }

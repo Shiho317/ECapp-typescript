@@ -55,6 +55,7 @@ position: relative;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .start-btn button:hover{

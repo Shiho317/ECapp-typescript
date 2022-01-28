@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200;300&display=swap');
   position: relative;
   color: black;
   box-sizing: border-box;
   font-family: 'Abril Fatface', cursive;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Poppins', sans-serif;
   
   .header{
     background-color: #e6e6fa;
@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
     height: 5rem;
     margin: 0;
     padding: 0;
-    background-color: #e6e6fa;
+    background-color: rgb(128, 128, 128, 0.5);
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -27,6 +27,7 @@ export const Wrapper = styled.div`
     display: grid;
     align-items: center;
     margin: 0 4rem;
+    color: white;
   }
   .header-logo img{
     width: 40px;
@@ -46,5 +47,6 @@ export const Wrapper = styled.div`
   .title{
     font-size: 2rem;
     text-align: center;
+    color: gray;
   }
 `;
