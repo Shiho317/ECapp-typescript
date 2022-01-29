@@ -2,13 +2,15 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200;300&display=swap');
-  width: 30rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 0.2fr;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   align-items: center;
   margin: 2rem auto;
   font-family: 'Abril Fatface', cursive;
   font-family: 'Poppins', sans-serif;
+
   .contents-wrap h3{
     text-align: center;
   }
@@ -43,5 +45,15 @@ export const Wrapper = styled.div`
   }
   .trash-icon{
     cursor: pointer;
+  }
+
+  @media screen and (min-width: 768px){
+    width: 30rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.2fr;
+  }
+
+  @media screen and (min-width: 1024px){
+
   }
 `;

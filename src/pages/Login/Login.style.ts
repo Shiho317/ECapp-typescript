@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  background-color: #DCDCDC;
-  width: 40%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+background-color: #DCDCDC;
+width: 100%;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
 
-  h3{
+h3{
     font-size: 1.5rem;
     text-align: center;
     margin: 2rem 0 0 0;
@@ -26,4 +26,13 @@ export const Wrapper = styled.div`
     font-size: 0.8rem;
     text-align: center;
   }
+
+@media screen and (min-width: 768px){
+  width: 70%;
+}
+
+@media screen and (min-width: 1024px){
+  width: 40%;
+}
+  
 `;

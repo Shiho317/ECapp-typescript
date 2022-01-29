@@ -6,15 +6,16 @@ display: flex;
   align-items: center;
   width: 80%;
   margin: 3rem auto;
+
   .image-wrap{
-    width: 350px;
-    height: 300px;
+    width: 200px;
+    height: 150px;
     display: grid;
     align-items: center;
   }
   img {
-    width: 300px;
-    height: 250px;
+    width: 200px;
+    height: 150px;
     margin: 0 auto;
     transition: all 0.2s ease;
   }
@@ -22,7 +23,7 @@ display: flex;
     transform: scale(1.1)
   }
   .details{
-    margin-top: 2rem;
+    margin-top: 0.8rem;
     height: 10rem;
     width: 70%;
   }
@@ -49,5 +50,23 @@ display: flex;
     background-color: transparent;
     color: gray;
     border: 2px solid gray;
+  }
+
+  @media screen and (min-width: 768px){
+
+  }
+
+  @media screen and (min-width: 1024px){
+    .image-wrap{
+      width: 350px;
+      height: 300px;
+    }
+    img {
+      width: 300px;
+      height: 250px;
+    }
+    .details{
+      margin-top: 2rem;
+    }
   }
 `;

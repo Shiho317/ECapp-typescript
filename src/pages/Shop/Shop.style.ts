@@ -11,9 +11,7 @@ export const Wrapper = styled.div`
   .header{
     background-color: #e6e6fa;
     width: 100%;
-    height: 5rem;
-    margin: 0;
-    padding: 0;
+    height: 4rem;
     background-color: rgb(128, 128, 128, 0.5);
     display: flex;
     justify-content: space-between;
@@ -22,23 +20,19 @@ export const Wrapper = styled.div`
     z-index: 100;
   }
   .header-logo{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     display: grid;
     align-items: center;
-    margin: 0 4rem;
+    margin: 0 2rem;
     color: white;
   }
-  .header-logo img{
-    width: 40px;
-    height: 40px;
-  }
   .cart-icon{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     display: flex;
     align-items: center;
-    margin: 0 1rem;
+    margin: 0;
     cursor: pointer;
     color: white;
   }
@@ -46,8 +40,38 @@ export const Wrapper = styled.div`
     margin-top: 3rem;
   }
   .title{
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: center;
     color: gray;
+  }
+
+  @media screen and (min-width: 768px){
+  .header-logo{
+    margin: 0 2rem;
+  }
+
+  }
+
+  @media screen and (min-width: 1024px){
+
+    .header{
+      height: 5rem;
+    }
+
+    .header-logo{
+    width: 5rem;
+    height: 5rem;
+    margin: 0 4rem;
+    }
+
+    .cart-icon{
+      width: 5rem;
+      height: 5rem;
+    }
+
+    .title{
+      font-size: 2rem;
+    }
+
   }
 `;
