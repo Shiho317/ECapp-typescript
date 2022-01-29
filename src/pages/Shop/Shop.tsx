@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 import products from '../../shoppingData.json';
 import { Wrapper } from "./Shop.style";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
@@ -76,9 +77,11 @@ const Shop = () => {
             removeFromItemList={removeFromCartList}/>
       </Drawer>
       <div className="header">
+        <Link to="/">
         <div className="header-logo">
           <SailingIcon/>
         </div>
+        </Link>
         <div className="cart-icon" onClick={() => setIsCartOpen(true)}>
           <Badge badgeContent={getTotalItems(cartItems)} color="secondary">
             <ShoppingCartOutlinedIcon/>

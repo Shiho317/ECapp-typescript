@@ -40,6 +40,7 @@ export const Wrapper = styled.div`
     align-items: center;
     margin: 0 1rem;
     cursor: pointer;
+    color: white;
   }
   .main{
     margin-top: 3rem;

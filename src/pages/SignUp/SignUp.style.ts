@@ -20,4 +20,8 @@ h3{
   flex-direction: column;
   gap: 2rem
 }
+
+.submit-btn a{
+  text-decoration: none;
+}
 `;

@@ -1,6 +1,9 @@
 import { Wrapper } from "./SignUp.style";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
+
+
 
 const SignUp: React.FC = () => {
 
@@ -21,9 +24,11 @@ const SignUp: React.FC = () => {
           <TextField fullWidth id="outlined-basic" label="confirm" variant="outlined" />
         </div>
         <div className='submit-btn'>
+          <Link to="/shop">
           <Button fullWidth variant="contained" disableElevation>
             Submit
           </Button>
+          </Link>
         </div>
       </div>
     </Wrapper>

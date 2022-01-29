@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
   }
   .add-btn,
   .remove-btn{
-    background-color: #e6e6fa;
+    background-color: #f08080;
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
