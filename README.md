@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# E-Commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Contents
+- Hero page
+- Login
+- SignUp
+- Shopping page
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+![ec-demo1](https://user-images.githubusercontent.com/88401910/151724692-ca351c23-5518-43ef-8301-60ab9ae6b914.jpg)
+![ec-demo2](https://user-images.githubusercontent.com/88401910/151724696-627dff35-dbcd-4697-aa52-4bc7503d0e04.jpg)
 
-### `npm start`
+https://sailfurniture-ecommerce-mixs4kfls-shiho317.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Languages/Frameworks
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`typescript`, `react`, `styled-components`, `material-ui`
 
-### `npm test`
+## Published
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`vercel`
 
-### `npm run build`
+## About
+:white_check_mark: E-Commerce website that is built with React.js and Typescript.
+:white_check_mark: Created json file to storage items and users.
+:white_check_mark: Created shopping cart modal which shows you items that are in your cart and total cost.
+:white_check_mark: Used styled-component and Material UI for styling.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### More information
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`Login User Account`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+|**name**         |**email**                 |**password**      |
+|-----------------|--------------------------|------------------|
+|John Doe         |johndoe0101@gmail.com     |imdummyjohnny     |
+|Jane Doe         |janedoe0202@gmail.com     |imjanieminnie     |
+|Chris Williams   |mynameischris@gmail.com   |chrisgochris      |
+|Christal Williams|mynameischristal@gmail.com|iamshiningchristal|
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+:warning: This user account information is all dummy data. Available only for this website to log in.
