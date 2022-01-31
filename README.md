@@ -22,10 +22,10 @@ https://sailfurniture-ecommerce-mixs4kfls-shiho317.vercel.app/
 `vercel`
 
 ## About
-:white_check_mark: E-Commerce website that is built with React.js and Typescript.
-:white_check_mark: Created json file to storage items and users.
-:white_check_mark: Created shopping cart modal which shows you items that are in your cart and total cost.
-:white_check_mark: Used styled-component and Material UI for styling.
+:white_check_mark: E-Commerce website that is built with React.js and Typescript.  
+:white_check_mark: Created json file to storage items and users.  
+:white_check_mark: Created shopping cart modal which shows you items that are in your cart and total cost.  
+:white_check_mark: Used styled-component and Material UI for styling.  
 
 ### More information
 
